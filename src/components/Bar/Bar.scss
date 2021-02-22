@@ -1,0 +1,14 @@
+.bar {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    & .bar_content {
+        transform: rotate(-90deg);
+        position: absolute;
+        // writing-mode: vertical-rl;
+        // text-orientation: upright;
+    }
+}
